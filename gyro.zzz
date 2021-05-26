@@ -1,0 +1,13 @@
+pkgs:
+    slotmap:
+        version: 0.1.0
+        description: "Arena allocator with generational indices and secondary maps"
+        license: MPL-2.0
+        source_url: "https://github.com/mmstick/zig-slotmap"
+        tags: build
+        files:
+            README.md
+            LICENSE.md
+            src/lib.zig
+            src/secondary.zig
+            src/slotmap.zig
